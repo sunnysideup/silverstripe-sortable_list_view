@@ -15,7 +15,7 @@
 	"require":{
 		"silverstripe/framework": "^3.4",
 		"silverstripe/cms": "^3.4",
-		"undefinedoffset/sortablegridfield": "*",
+		"undefinedoffset/sortablegridfield": "*"
 	},
 	"extra": {
 		"installer-name": "sortable_list_view"
