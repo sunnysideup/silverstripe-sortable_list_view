@@ -1,0 +1,9 @@
+---
+Name: mysiteconfig
+After: 'framework/*','cms/*'
+---
+
+
+CMSMain:
+  extensions:
+    - SortableCMSMainListView
