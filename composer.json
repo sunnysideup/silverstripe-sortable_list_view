@@ -1,23 +1,28 @@
 {
-	"name": "sunnysideup/sortable_list_view",
-	"type": "silverstripe-module",
-	"description": "FINALLY! you can now sort your pages in the Silverstripe CMS Site Tree in a fast and efficient manner",
-	"keywords": ["silverstripe", "sort", "sort order", "sortoder", "sitetree"],
-	"license": "Sunny Side Up (BSD-3-Clause and CUSTOM)",
-	"authors":[
-		{
-			"name": "Nicolaas Francken",
-			"homepage": "https://github.com/sunnysideup",
-			"email" : "modules@sunnysideup.co.nz",
-			"role" : "lead developer"
-		}
-	],
-	"require":{
-		"silverstripe/framework": "^3.4",
-		"silverstripe/cms": "^3.4",
-		"undefinedoffset/sortablegridfield": "*"
-	},
-	"extra": {
-		"installer-name": "sortable_list_view"
-	}
+    "name": "sunnysideup/sortable_list_view",
+    "type": "silverstripe-module",
+    "description": "FINALLY! you can now sort your pages in the Silverstripe CMS Site Tree in a fast and efficient manner",
+    "keywords": [
+        "silverstripe",
+        "sort",
+        "sort order",
+        "sortoder",
+        "sitetree"
+    ],
+    "license": "Sunny Side Up (BSD-3-Clause and CUSTOM)",
+    "authors": [
+        {
+            "name": "Nicolaas Francken",
+            "email": "modules@sunnysideup.co.nz",
+            "role": "lead developer"
+        }
+    ],
+    "require": {
+        "silverstripe/framework": "^3.4",
+        "silverstripe/cms": "^3.4",
+        "undefinedoffset/sortablegridfield": "*"
+    },
+    "extra": {
+        "installer-name": "sortable_list_view"
+    }
 }
