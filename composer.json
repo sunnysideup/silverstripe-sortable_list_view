@@ -3,7 +3,9 @@
     "type": "silverstripe-module",
     "description": "FINALLY! you can now sort your pages in the Silverstripe CMS Site Tree in a fast and efficient manner",
     "keywords": [
-        "silverstripe",
+        "Silverstripe-CMS",
+        "CMS",
+        "Silverstripe",
         "sort",
         "sort order",
         "sortoder",
@@ -18,8 +20,8 @@
         }
     ],
     "require": {
-        "silverstripe/framework": "^3.4",
-        "silverstripe/cms": "^3.4",
+        "silverstripe/framework": "~3.1",
+        "silverstripe/cms": "~3.1",
         "undefinedoffset/sortablegridfield": "*"
     },
     "extra": {
