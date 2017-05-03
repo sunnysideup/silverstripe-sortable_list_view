@@ -15,7 +15,7 @@
 
  * [Developer Docs](docs/en/INDEX.md)
  * [User Guide](docs/en/userguide.md)
- * [API Docs](http://docs.ssmods.com/sunnysideup/sortable_list_view)
+ * [API Docs](http://docs.ssmods.com/sunnysideup/sortable_list_view/classes.xhtml)
 
 ## Requirements
 
