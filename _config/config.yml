@@ -1,5 +1,5 @@
 ---
-Name: mysiteconfig
+Name: sortablelistview
 After: 'framework/*','cms/*'
 ---
 
