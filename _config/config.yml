@@ -1,9 +1,11 @@
 ---
 Name: sortablelistview
-After: 'framework/*','cms/*'
+After:
+  - '#coreconfig'
+  - '#cmsextensions'
 ---
 
 
-CMSMain:
+SilverStripe\CMS\Controllers\CMSMain:
   extensions:
-    - SortableCMSMainListView
+    - Sunnysideup\SortableListView\SortableCMSMainListView

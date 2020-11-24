@@ -1,5 +1,11 @@
 <?php
 
+namespace Sunnysideup\SortableListView;
+
+use SilverStripe\Core\Extension;
+use SilverStripe\Forms\GridField\GridField;
+use UndefinedOffset\SortableGridField\Forms\GridFieldSortableRows;
+
 class SortableCMSMainListView extends Extension
 {
     public function updateListView($listView)

@@ -1,6 +1,6 @@
 {
     "name": "sunnysideup/sortable_list_view",
-    "type": "silverstripe-module",
+    "type": "silverstripe-vendormodule",
     "description": "FINALLY! you can now sort your pages in the Silverstripe CMS Site Tree in a fast and efficient manner",
     "keywords": [
         "Silverstripe-CMS",
@@ -20,11 +20,17 @@
         }
     ],
     "require": {
-        "silverstripe/framework": "~3.6",
-        "silverstripe/cms": "~3.6",
+        "silverstripe/cms": "~4.0",
         "undefinedoffset/sortablegridfield": "*"
     },
     "extra": {
         "installer-name": "sortable_list_view"
-    }
+    },
+    "autoload": {
+        "psr-4": {
+            "Sunnysideup\\ShareThisSimple\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
