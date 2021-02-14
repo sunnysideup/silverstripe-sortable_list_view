@@ -28,7 +28,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Sunnysideup\\ShareThisSimple\\": "src/"
+            "Sunnysideup\\SortableListView\\": "src/"
         }
     },
     "minimum-stability": "dev",
