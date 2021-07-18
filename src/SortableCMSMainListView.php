@@ -15,9 +15,7 @@ class SortableCMSMainListView extends Extension
             $field = $fields->dataFieldByName('Page');
             if ($field && $field instanceof GridField) {
                 $config = $field->getConfig();
-                if ($config) {
-                    $config->addComponent(new GridFieldSortableRows('Sort'));
-                }
+                $config->addComponent(new GridFieldSortableRows('Sort'));
             }
         }
     }
