@@ -6,6 +6,11 @@ use SilverStripe\Core\Extension;
 use SilverStripe\Forms\GridField\GridField;
 use UndefinedOffset\SortableGridField\Forms\GridFieldSortableRows;
 
+/**
+ * Class \Sunnysideup\SortableListView\SortableCMSMainListView
+ *
+ * @property CMSMain|SortableCMSMainListView $owner
+ */
 class SortableCMSMainListView extends Extension
 {
     public function updateListView($listView)
